@@ -1,3 +1,8 @@
+Startup shortcut, to update now, probably in:
+C:\Users\<name>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+*************************
+
 Util.ini and similar files are expected to be in h:\util or else in c:\util.
 
 *************************
@@ -24,3 +29,4 @@ wget -L -O util.ini "https://raw.githubusercontent.com/Sikoat/utilgets/refs/head
 bitsadmin /transfer util_update_job /download /priority normal "https://raw.githubusercontent.com/Sikoat/utilgets/refs/heads/main/util.ini" "%CD%\util.ini"
 
 python -c "import urllib.request; urllib.request.urlretrieve('https://raw.githubusercontent.com/Sikoat/utilgets/refs/heads/main/util.ini','util.ini')"
+
